@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #dda0dd; /* Lighter plum shade */
+    line-height: 1.6;
+    color: #333; /* More contrast for readability */
+}
+
+.heading {
+    color: #2b55df;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.main {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #fff; /* Adding a background for better contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.personal {
+    color: rgba(18, 14, 226, 0.7);
+    background-color: #00ffff; /* Consistent aqua shade */
+    padding: 15px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.forpic {
+    color: blue;
+}
+
+input[type="file"] {
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    background-color: #f5f5dc; /* Softened the antiquewhite color */
+    border-radius: 30px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+form {
+    margin-bottom: 40px;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #f5f5dc;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #2b55df;
+    box-shadow: 0 0 5px rgba(43, 85, 223, 0.3);
+}
